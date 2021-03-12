@@ -12,10 +12,7 @@ var maxDrops=100;
 var thunderCreatedFrame=0;
 
 function preload(){
-    thunder1 = loadImage("thunderbolt/1.png");
-    thunder2 = loadImage("thunderbolt/2.png");
-    thunder3 = loadImage("thunderbolt/3.png");
-    thunder4 = loadImage("thunderbolt/4.png");
+   //load thunder images
 }
 
 function setup(){
@@ -28,9 +25,7 @@ function setup(){
     //creating drops
     if(frameCount % 150 === 0){
 
-        for(var i=0; i<maxDrops; i++){
-            drops.push(new createDrop(random(0,400), random(0,400)));
-        }
+        //set a loop for droplets
 
     }
     
